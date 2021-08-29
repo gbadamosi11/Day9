@@ -15,7 +15,6 @@
      }
      .container{
           padding: 50px 150px;
-          position: relative;
      }
      .btn{
           font-size: 12px;
@@ -25,6 +24,7 @@
           text-transform: uppercase;
           color: #505052;
      }
+     
      #header{
           display: flex;
           flex-direction: column;
@@ -154,6 +154,8 @@
           background-color: #e7816b;
           padding: 50px;
           border-radius: 16px;
+          position: relative;
+          top: 100px;
      }
      .about-cont{
           display: flex;
@@ -183,7 +185,16 @@
           background-color: #1d1d1f;
           height: 100%;
      }
+     .footer-container{
+          padding: 80px 150px;
+     }
      .contact-cont{
-          margin-top: 50px;
+          margin-top: 30px;
+          text-align: center;
+          color: #505052;
+     }
+     .contact-text{
+          font-size: 14px;
+          line-height: 1.5;
      }
 }
