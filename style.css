@@ -1,0 +1,189 @@
+@media only screen and (min-width: 1200px){
+     *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+     }
+     body{
+          font-family: sans-serif;
+     }
+     ul{
+          list-style: none;
+     }
+     a{
+          text-decoration: none;
+     }
+     .container{
+          padding: 50px 150px;
+          position: relative;
+     }
+     .btn{
+          font-size: 12px;
+          border: none;
+          outline: none;
+          border-radius: 4px;
+          text-transform: uppercase;
+          color: #505052;
+     }
+     #header{
+          display: flex;
+          flex-direction: column;
+          gap: 50px;
+     }
+     .nav{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+     }
+     .logo{
+          font-size: 32px;
+          text-transform: uppercase;
+          color: #505052;
+     }
+     .list{
+          display: flex;
+          flex-direction: row;
+          gap: 30px;
+     }
+     .link{
+          color: #666;
+          text-transform: uppercase;
+          font-size: 14px;
+     }
+     .main{
+          background-color: #e7816b;
+          border-radius: 16px;
+          padding: 0 50px;
+     }
+     .main-cont{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          width: 100%;
+     }
+     .heading-cont{
+          width: 50%;
+          padding: 100px 0;
+          color: #fff;
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+     }
+     .main-heading{
+          font-size: 38px;
+     }
+     .main-text{
+          font-size: 18px;
+          word-spacing: 2px;
+     }
+     .main-btn{
+          width: 25%;
+          padding: 15px 10px;
+     }
+     #services{
+          margin: 100px 0;
+     }
+     .service-cont{
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          gap: 30px;
+     }
+     .col-1{
+          background-image: linear-gradient(rgba(0, 0, 0, 0.631), rgba(0, 0, 0, 0.631)) ,url(./img/web-dev.jpg);
+          background-position: center;
+          background-size: cover;
+          height: 550px;
+          width: 50%;
+          border-radius: 16px;
+          text-transform: uppercase;
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          justify-content: center;
+          align-items: center;
+          color: #fff;
+     }
+     .col-cont{
+          display: flex;
+          flex-direction: column;
+          width: 50%;
+          height: 550px;
+          gap: 30px;
+     }
+     .col-2{
+          background-image: linear-gradient(rgba(0, 0, 0, 0.631), rgba(0, 0, 0, 0.631)) ,url(./img/UX.jpg);
+          background-position: center;
+          background-size: cover;
+          height: 275px;
+          width: 100%;
+          border-radius: 16px;
+          text-transform: uppercase;
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          justify-content: center;
+          align-items: center;
+          color: #fff;
+     }
+     .col-3{
+          background-image: linear-gradient(rgba(0, 0, 0, 0.631), rgba(0, 0, 0, 0.631)) ,url(./img/app.jpg);
+          background-position: center;
+          background-size: cover;
+          height: 275px;
+          width: 100%;
+          border-radius: 16px;
+          text-transform: uppercase;
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          justify-content: center;
+          align-items: center;
+          color: #fff;
+     }
+     .service-heading{
+          font-size: 32px;
+          letter-spacing: 2px;
+     }
+     .service-link{
+          color: #fff;
+          font-size: 12px;
+          letter-spacing: 2px;
+     }
+     #about{
+          background-color: #e7816b;
+          padding: 50px;
+          border-radius: 16px;
+     }
+     .about-cont{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+     }
+     .about-heading-cont{
+          width: 50%;
+          color: #fff;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+     }
+     .about-text{
+          font-size: 18px;
+          line-height: 1.5;
+     }
+     .about-btn{
+          padding: 0px 20px;
+          height: 50px;
+     }
+     .pd-r{
+          padding-right: 200px;
+     }
+     #footer{
+          background-color: #1d1d1f;
+          height: 100%;
+     }
+     .contact-cont{
+          margin-top: 50px;
+     }
+}
